@@ -1,0 +1,15 @@
+.pass{
+    color:green;
+    font-size:30px;
+    border:3px solid black;
+}
+.dist{
+    color:pink;
+    font-size:35px;
+    border:3px solid black;
+}
+.fail{
+    color:red;
+    font-size:25px;
+    border:3px solid black;
+}

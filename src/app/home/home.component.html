@@ -1,0 +1,9 @@
+<div style="font-size:30px;color:blue;margin-top: 50px;margin-left: 100px;">
+  <h2>Enter Your Marks</h2>
+  Maths:-  <input type="text" [(ngModel)]="math" placeholder="enter your maths's mark"><br>
+  Science:- <input type="text" [(ngModel)]="science" placeholder="enter your Science's mark"><br>
+  English:-  <input type="text" [(ngModel)]="english" placeholder="enter your English's mark"><br><br>
+
+  <button (click)="checkResult()" style="font-size:30px">submit </button>
+  <h5 [ngClass]="myClass">{{result}}</h5>
+</div>
